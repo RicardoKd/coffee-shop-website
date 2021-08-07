@@ -1,0 +1,14 @@
+:root {
+  /* Fonts */
+  --f-main: "Josefin Sans", sans-serif; /* h1, h2, h3, h6 */
+  --f-secondary: "Alegreya Sans", sans-serif; /* h5 */
+  --f-decor: "Cedarville Cursive", cursive; /* h4 */
+
+  /* Colors */
+  --main-bg-color: #ffffff;
+  --main-text-color: #000000;
+  --secondary-text-color: #444a4a;
+  --button-bg-color: #2d635e;
+  --first-accent-color: #e3ebe7;
+  --second-accent-color: #fae9e0;
+}
