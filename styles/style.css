@@ -8,7 +8,43 @@
   --main-bg-color: #ffffff;
   --main-text-color: #000000;
   --secondary-text-color: #444a4a;
-  --button-bg-color: #2d635e;
+  --btn-bg-color: #2d635e;
   --first-accent-color: #e3ebe7;
   --second-accent-color: #fae9e0;
+}
+
+.f-main {
+  font-family: var(--f-main);
+}
+
+.f-secondary {
+  font-family: var(--f-secondary);
+}
+
+.f-decor {
+  font-family: var(--f-decor);
+}
+
+.main-bg-color {
+  background-color: var(--main-bg-color);
+}
+
+.main-text-color {
+  color: var(--main-text-color);
+}
+
+.secondary-text-color {
+  color: var(--secondary-text-color);
+}
+
+.btn-bg-color {
+  background-color: var(--btn-bg-color);
+}
+
+.first-accent-color {
+  background-color: var(--first-accent-color);
+}
+
+.second-accent-color {
+  background-color: var(--second-accent-color);
 }
