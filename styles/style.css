@@ -48,3 +48,13 @@
 .second-accent-color {
   background-color: var(--second-accent-color);
 }
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+}
