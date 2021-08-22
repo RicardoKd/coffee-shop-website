@@ -58,3 +58,22 @@ nav {
   max-width: 1200px;
   margin: auto;
 }
+
+.entrance-banner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn-order-here {
+  width: 235px;
+  height: 54px;
+}
+
+.carousel-transform {
+  /* transform: translateY(100px); */
+  padding-top: 100px;
+}
+
+.cont-box {
+  box-sizing: content-box;
+}
