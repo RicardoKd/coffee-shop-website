@@ -10,6 +10,7 @@
   --secondary-text-color: #444a4a;
   --btn-bg-color: #2d635e;
   --first-accent-color: #e3ebe7;
+  --first-accent-color-opacity: rgba(227, 235, 231, 0.8);
   --second-accent-color: #fae9e0;
 }
 
@@ -45,6 +46,10 @@
   background-color: var(--first-accent-color);
 }
 
+.first-accent-color-opacity {
+  background-color: var(--first-accent-color-opacity);
+}
+
 .second-accent-color {
   background-color: var(--second-accent-color);
 }
@@ -54,26 +59,7 @@ body {
   margin: auto;
 }
 
-nav {
+.main-width {
   max-width: 1200px;
   margin: auto;
-}
-
-.entrance-banner {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.btn-order-here {
-  width: 235px;
-  height: 54px;
-}
-
-.carousel-transform {
-  /* transform: translateY(100px); */
-  padding-top: 100px;
-}
-
-.cont-box {
-  box-sizing: content-box;
 }

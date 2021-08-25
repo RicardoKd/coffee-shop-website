@@ -1,0 +1,38 @@
+.btn-order-here {
+  width: 235px;
+  height: 54px;
+}
+
+.carousel-transform {
+  padding-top: 100px;
+}
+
+.banner-control-next {
+  width: 40px;
+  height: 30px;
+  border: 0;
+  transition: opacity 0.15s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-control-next-wrapper:before {
+  content: "";
+  height: 250px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sm-links {
+  list-style: none;
+}
+
+.sm-text {
+  position: absolute;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  bottom: -167px;
+  font-size: 28px;
+}

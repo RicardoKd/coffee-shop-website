@@ -21,79 +21,93 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/banner.css">
   </head>
-  <body class="f-main main-bg-color main-text-color f-main">
+  <body class="f-main main-bg-color main-text-color">
 
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
-      <div class="container-fluid">
-        <div class="container-fluid d-flex align-items-center col">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand f-decor d-inline-flex" href="#">
-            <img src="/img/Logo.svg" alt="Logo" width="56" height="24" class="d-inline-block align-text-top mx-3">
-            Samwyle
-          </a>
-        </div>
+    <div class="container-fluid main-width row mb-4">
+      <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+        <div class="container-fluid px-0">
+          <div class="container-fluid d-flex align-items-center col px-0">
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand f-decor d-inline-flex" href="#">
+              <img src="img/Logo.svg" alt="Logo" width="56" height="24" class="d-inline-block align-text-top mx-sm-0">
+              Samwyle
+            </a>
+          </div>
   
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-dark" href="#">Promotion</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-dark" href="#">Shop</a>
-              </li>
-              <li class="nav-tem ms-3">
-                <button type="button" class="btn btn-bg-color text-white">Contact Us</button>
-              </li>
-            </ul>
+          <div class="container-fluid px-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item mx-5 ms-md-0">
+                  <a class="nav-link text-dark" aria-current="page" href="#">About Us</a>
+                </li>
+                <li class="nav-item mx-5 mx-md-4">
+                  <a class="nav-link text-dark" href="#">Promotion</a>
+                </li>
+                <li class="nav-item mx-5">
+                  <a class="nav-link text-dark" href="#">Shop</a>
+                </li>
+                <li class="nav-tem mx-5 me-md-0 ms-md-1">
+                  <button type="button" class="btn btn-bg-color text-white px-3 px-md-4">Contact Us</button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
-    <div class="container-fluid entrance-banner row">
-      <div class="col-5">
-        <h4 class="f-decor">Drink coffee, enjoy with Samwyle</h4>
-        <h1 class="f-main">Coffee Shop</h1>
-        <button type="button" class="btn btn-bg-color text-white btn-order-here">Order here</button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div class="container-fluid main-width row">
+      <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+        <h4 class="f-decor text-center fs-5 fs-md-3">Drink coffee, enjoy with Samwyle</h4>
+        <h1 class="f-main fw-md-bold my-4 text-center" style="font-size: 3.5rem;">Coffee Shop</h1>
+        <button type="button" class="btn btn-bg-color text-white btn-order-here">Order here<img class="ms-4 d-md-none" src="img/banner-arrow.svg"></button>
       </div>
 
-      <div class="col bg-danger"></div>
+      <div class="col-2 pe-0 d-none d-md-block banner-control-next-wrapper">
+        <div class="first-accent-color-opacity position-relative w-100" style="height: 150px;">
+          <button class="banner-control-next p-0" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <img src="img/banner-arrow.svg">
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
-      <div class="col-5 first-accent-color">
-        <div id="carouselId" class="carousel slide cont-box" data-bs-ride="carousel">
-          <div class="carousel-inner cont-box" role="listbox">
-            <div class="carousel-item active cont-box">
-              <img class="carousel-transform" src="img/banner-slide-1.svg" alt="First slide" width="100%">
-            </div>
-            <div class="carousel-item position-relative cont-box">
-              <img class="carousel-transform" src="img/banner-slide-2.svg" alt="Second slide" width="100%">
-            </div>
-            <div class="carousel-item position-relative cont-box">
-              <img class="carousel-transform" src="img/banner-slide-3.svg" alt="Third slide" width="100%">
+      <div class="col-4 first-accent-color ps-0 d-none d-md-block" style="height: 400px;">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="carousel-transform w-100" src="img/banner-slide-1.svg" alt="First slide" height="450px">
             </div>
             <div class="carousel-item position-relative">
-              <img class="carousel-transform" src="img/banner-slide-4.svg" alt="Forth slide" width="100%">
+              <img class="carousel-transform w-100" src="img/banner-slide-2.svg" alt="Second slide" height="450px">
             </div>
             <div class="carousel-item position-relative">
-              <img class="carousel-transform" src="img/banner-slide-5.svg" alt="Fifth slide" width="100%">
+              <img class="carousel-transform w-100" src="img/banner-slide-3.svg" alt="Third slide" height="450px">
+            </div>
+            <div class="carousel-item position-relative">
+              <img class="carousel-transform w-100" src="img/banner-slide-4.svg" alt="Forth slide" height="450px">
+            </div>
+            <div class="carousel-item position-relative">
+              <img class="carousel-transform w-100" src="img/banner-slide-5.svg" alt="Fifth slide" height="450px">
             </div>
           </div>
           
-          
         </div>
       </div>
-      <div class="col sm-vertical"></div>
+      <div class="col sm-vertical d-none d-md-flex align-items-center justify-content-center">
+        <div class="position-relative">
+          <ul class="sm-links p-0 m-0">
+            <li><a href="#"><img src="img/banner-sm-1.svg" alt="twitter"></a></li>
+            <li class="my-3"><a href="#"><img src="img/banner-sm-2.svg" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/banner-sm-3.svg" alt="facebook"></a></li>
+          </ul>
+          <h3 style="width: 150px;" class="mb-0 f-main secondary-text-color sm-text">Follow us</h3>
+        </div>
+      </div>
     </div>
 
     <script
