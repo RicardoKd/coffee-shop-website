@@ -1,0 +1,12 @@
+/* Makes images in the about section take up 100% vw */
+@media screen and (min-width: 768px) {
+  .row > .about-picture {
+    padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+
+  .container-fluid {
+    padding-right: var(--bs-gutter-x, 0.75rem) !important;
+    padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  }
+}

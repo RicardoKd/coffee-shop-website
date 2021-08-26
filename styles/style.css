@@ -10,7 +10,7 @@
   --secondary-text-color: #444a4a;
   --btn-bg-color: #2d635e;
   --first-accent-color: #e3ebe7;
-  --first-accent-color-opacity: rgba(227, 235, 231, 0.8);
+  --first-accent-color-opacity: rgba(227, 235, 231, 0.4);
   --second-accent-color: #fae9e0;
 }
 
@@ -62,4 +62,28 @@ body {
 .main-width {
   max-width: 1200px;
   margin: auto;
+}
+
+.mb-6 {
+  margin-bottom: 4.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 6rem;
+}
+
+.mb-8 {
+  margin-bottom: 8rem;
+}
+
+.mb-9 {
+  margin-bottom: 10rem;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.fs-38 {
+  font-size: 38px;
 }
