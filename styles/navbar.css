@@ -1,0 +1,9 @@
+.nav-item {
+  transition: var(--main-trans-time);
+
+}
+
+.nav-link:hover {
+  background-color: var(--btn-bg-color);
+  color: var(--main-color) !important;
+}

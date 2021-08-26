@@ -5,13 +5,15 @@
   --f-decor: "Cedarville Cursive", cursive; /* h4 */
 
   /* Colors */
-  --main-bg-color: #ffffff;
+  --main-color: #ffffff;
   --main-text-color: #000000;
   --secondary-text-color: #444a4a;
   --btn-bg-color: #2d635e;
   --first-accent-color: #e3ebe7;
   --first-accent-color-opacity: rgba(227, 235, 231, 0.4);
   --second-accent-color: #fae9e0;
+
+  --main-trans-time: 0.5s;
 }
 
 .f-main {
@@ -26,8 +28,8 @@
   font-family: var(--f-decor);
 }
 
-.main-bg-color {
-  background-color: var(--main-bg-color);
+.main-color {
+  background-color: var(--main-color);
 }
 
 .main-text-color {
@@ -86,4 +88,12 @@ body {
 
 .fs-38 {
   font-size: 38px;
+}
+
+.btn-hvr {
+  transition: var(--main-trans-time);
+}
+
+.btn-hvr:hover {
+  background-color: var(--secondary-text-color);
 }

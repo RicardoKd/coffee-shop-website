@@ -7,7 +7,7 @@
     content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Samwyle</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,11 +20,12 @@
       href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/about.css">
   </head>
-  <body class="f-main main-bg-color main-text-color">
+  <body class="f-main main-color main-text-color">
 
     <div class="container-fluid main-width row mb-4">
       <nav class="navbar navbar-expand-md navbar-light bg-transparent px-0">
@@ -42,17 +43,19 @@
           <div class="container-fluid px-0">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item mx-5 ms-md-0">
-                  <a class="nav-link text-dark" aria-current="page" href="#">About Us</a>
+                <li class="nav-item mx-1"> <!-- mx-5 ms-md-0 -->
+                  <a class="nav-link fw-bold rounded px-4" aria-current="page" href="#">About Us</a>
                 </li>
-                <li class="nav-item mx-5 mx-md-4">
-                  <a class="nav-link text-dark" href="#">Promotion</a>
+                <li class="nav-item mx-1"> <!-- mx-5 mx-md-4 -->
+                  <a class="nav-link fw-bold rounded px-4" href="#">Promotion</a>
                 </li>
-                <li class="nav-item mx-5">
-                  <a class="nav-link text-dark" href="#">Shop</a>
+                <li class="nav-item mx-1"> <!-- mx-5 -->
+                  <a class="nav-link fw-bold rounded px-4" href="#">Shop</a>
                 </li>
-                <li class="nav-tem mx-5 me-md-0 ms-md-1">
-                  <button type="button" class="btn btn-bg-color text-white px-3 px-md-4 shadow-none">Contact Us</button>
+                <li class="nav-tem mx-1"> <!-- mx-5 me-md-0 ms-md-1 -->
+                  <a class="nav-link fw-bold rounded px-4" href="#">Contact Us</a>
+
+                  <!-- <button type="button" class="btn btn-bg-color text-white px-3 px-md-4 shadow-none">Contact Us</button> -->
                 </li>
               </ul>
             </div>
@@ -65,16 +68,15 @@
       <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
         <h4 class="f-decor text-center text-md-start banner-h4">Drink coffee, enjoy with Samwyle</h4>
         <h1 class="f-main text-center text-md-start fw-bold my-4 banner-h1">Coffee Shop</h1>
-        <button type="button" class="btn btn-bg-color text-white btn-order-here shadow-none ">
+        <button type="button" class="btn btn-hvr btn-bg-color text-white btn-order-here shadow-none">
           Order here<img class="ms-4 d-md-none" src="img/banner-arrow-white.svg">
         </button>
       </div>
 
       <div class="col-2 pe-0 d-none d-md-block banner-control-next-wrapper">
-        <div class="first-accent-color-opacity position-relative w-100" style="height: 150px;">
-          <button class="banner-control-next p-0 bg-transparent" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <div class="position-relative w-75" style="height: 130px; margin-left: 25%;">
+          <button class="banner-control-next first-accent-color-opacity w-100 h-100" type="button" data-bs-target="#carouselId" data-bs-slide="next">
             <img src="img/banner-arrow-black.svg">
-            <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
@@ -105,9 +107,9 @@
       <div class="col sm-vertical d-none d-md-flex align-items-center justify-content-center">
         <div class="position-relative">
           <ul class="sm-links p-0 m-0">
-            <li><a href="#"><img src="img/banner-sm-1.svg" alt="twitter"></a></li>
-            <li class="my-3"><a href="#"><img src="img/banner-sm-2.svg" alt="instagram"></a></li>
-            <li><a href="#"><img src="img/banner-sm-3.svg" alt="facebook"></a></li>
+            <li><a href="#"><img class="sm-banner-icons" src="img/banner-sm-1.svg" alt="twitter"></a></li>
+            <li class="my-3"><a href="#"><img class="sm-banner-icons" src="img/banner-sm-2.svg" alt="instagram"></a></li>
+            <li><a href="#"><img class="sm-banner-icons" src="img/banner-sm-3.svg" alt="facebook"></a></li>
           </ul>
           <h3 style="width: 150px;" class="mb-0 f-main secondary-text-color sm-text">Follow us</h3>
         </div>
@@ -130,7 +132,7 @@
       <div class="col-12 col-md-7 px-5">
         <h2 class="f-main fs-38">Coffee of the day</h2>
         <p class="f-secondary secondary-text-color fs-19 mb-md-4 mt-5">Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream) depends on how coffee and water are mixed. Attention! The concepts of “American” and “American coffee” should not be confused. n the second case, this refers not to diluted espresso, but to a drink prepared through a filter system.</p>
-        <button type="button" class="btn btn-bg-color text-white btn-order-here shadow-none d-none d-md-inline-block">Order now</button>
+        <button type="button" class="btn btn-hvr btn-bg-color text-white btn-order-here shadow-none d-none d-md-inline-block">Order now</button>
       </div>
       <div class="col-12 col-md-5 text-center mb-4 mb-md-0 px-0 about-picture">
         <img src="img/about-2.svg" class="img-fluid w-100 d-none d-md-inline-block">
