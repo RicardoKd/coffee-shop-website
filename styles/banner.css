@@ -36,3 +36,28 @@
   bottom: -167px;
   font-size: 28px;
 }
+
+.banner-h1{
+  font-size: 54px;
+}
+
+.banner-h4{
+  font-size: 19px;
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 576px) {
+  .banner-h1{
+    font-size: 70px;
+  }
+  
+  .banner-h4{
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner-h1{
+    font-size: 63px;
+  }
+}
