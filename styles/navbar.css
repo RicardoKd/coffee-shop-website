@@ -1,6 +1,5 @@
 .nav-item {
   transition: var(--main-trans-time);
-
 }
 
 .nav-link:hover {
