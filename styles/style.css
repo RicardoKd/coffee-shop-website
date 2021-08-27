@@ -97,3 +97,7 @@ body {
 .btn-hvr:hover {
   background-color: var(--secondary-text-color);
 }
+
+.line-h-30 {
+  line-height: 30px;
+}
