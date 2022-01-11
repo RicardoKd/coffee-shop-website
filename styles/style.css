@@ -86,6 +86,11 @@ body {
   font-size: 19px;
 }
 
+.fs-28 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .fs-38 {
   font-size: 38px;
 }
@@ -96,4 +101,24 @@ body {
 
 .btn-hvr:hover {
   background-color: var(--secondary-text-color);
+}
+
+.std-trans-time {
+  transition: var(--main-trans-time);
+}
+
+.arrow-hvr:hover {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(6%) saturate(449%)
+    hue-rotate(131deg) brightness(94%) contrast(90%);
+}
+
+.mirrorY {
+  transform: scale(-1, 1);
+}
+
+.card-border-radius {
+  border-radius: 1.5rem;
+}
+.card-lh {
+  line-height: 2.25rem;
 }
