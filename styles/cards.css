@@ -1,0 +1,15 @@
+.arrow-hvr:hover {
+  filter: var(--svg-grey);
+}
+
+.mirrorY {
+  transform: scale(-1, 1);
+}
+
+.card-border-radius {
+  border-radius: 1.5rem;
+}
+
+.card-lh {
+  line-height: 2.25rem;
+}

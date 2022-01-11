@@ -2,7 +2,35 @@
   transition: var(--main-trans-time);
 }
 
+.nav-link {
+  font-weight: 600;
+  font-size: 26px;
+  color: var(--main-text-color) !important;
+  width: 180px;
+}
+
 .nav-link:hover {
   background-color: var(--btn-bg-color);
   color: var(--main-color) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 16px;
+    font-weight: 100;
+    width: 130px;
+  }
+}
+
+.navbar-brand {
+  margin-left: calc(100vw / 2 - 54px - 24px - 78px);
+}
+
+.sm-nav-icons {
+  transition: var(--main-trans-time);
+  filter: var(--svg-grey);
+}
+
+.sm-nav-icons:hover {
+  filter: var(--svg-green);
 }

@@ -24,9 +24,10 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/banner.css" />
     <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/cards.css" />
   </head>
   <body class="f-main main-color main-text-color">
-    <div class="container-fluid main-width row mb-4">
+    <div class="container-fluid main-width row mb-0 mb-md-4">
       <nav class="navbar navbar-expand-md navbar-light bg-transparent px-0">
         <div class="container-fluid px-0">
           <div class="container-fluid d-flex align-items-center col px-0">
@@ -41,7 +42,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand f-decor d-inline-flex" href="#">
+            <a class="navbar-brand f-decor d-inline-flex mx-md-0" href="#">
               <img
                 src="img/Logo.svg"
                 alt="Logo"
@@ -58,20 +59,45 @@
               class="collapse navbar-collapse justify-content-end"
               id="navbarNav"
             >
-              <ul class="navbar-nav">
-                <li class="nav-item mx-1">
-                  <a class="nav-link rounded px-4" href="#" aria-current="page"
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link rounded text-center px-4 mb-2 mt-5 my-md-0"
+                    href="#"
+                    aria-current="page"
                     >About Us</a
                   >
                 </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link rounded px-4" href="#">Promotion</a>
+                <li class="nav-item">
+                  <a class="nav-link rounded text-center px-4 my-2 my-md-0" href="#"
+                    >Promotion</a
+                  >
                 </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link rounded px-4" href="#">Shop</a>
+                <li class="nav-item">
+                  <a class="nav-link rounded px-4 my-2 text-center my-md-0" href="#">Shop</a>
                 </li>
-                <li class="nav-tem ms-1">
-                  <a class="nav-link rounded px-4" href="#">Contact Us</a>
+                <li class="nav-tem">
+                  <a class="nav-link rounded px-4 my-2 text-center my-md-0" href="#"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="d-block d-md-none mt-5">
+                  <a href="#"
+                    ><img
+                      class="sm-nav-icons"
+                      src="img/banner-sm-1.svg"
+                      alt="twitter" /></a
+                  ><a href="#"
+                    ><img
+                      class="sm-nav-icons mx-4"
+                      src="img/banner-sm-2.svg"
+                      alt="instagram" /></a
+                  ><a href="#"
+                    ><img
+                      class="sm-nav-icons"
+                      src="img/banner-sm-3.svg"
+                      alt="facebook"
+                  /></a>
                 </li>
               </ul>
             </div>
@@ -268,7 +294,7 @@
     </div>
 
     <div
-      class="first-accent-color container-fluid about-picture-wrapper main-width row mb-9 flex-md-row flex-column-reverse align-items-center px-0 py-5"
+      class="first-accent-color-opacity container-fluid about-picture-wrapper main-width row mb-9 flex-md-row flex-column-reverse align-items-center px-0 py-5"
     >
       <div class="col-1 text-end d-none d-lg-block">
         <button type="button" class="border-0 bg-transparent">

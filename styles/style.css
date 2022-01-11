@@ -12,6 +12,10 @@
   --first-accent-color: #e3ebe7;
   --first-accent-color-opacity: rgba(227, 235, 231, 0.4);
   --second-accent-color: #fae9e0;
+  --svg-grey: brightness(0) saturate(100%) invert(27%) sepia(6%) saturate(449%)
+    hue-rotate(131deg) brightness(94%) contrast(90%);
+  --svg-green: brightness(0) saturate(100%) invert(31%) sepia(13%)
+    saturate(1494%) hue-rotate(125deg) brightness(101%) contrast(90%);
 
   --main-trans-time: 0.5s;
 }
@@ -105,20 +109,4 @@ body {
 
 .std-trans-time {
   transition: var(--main-trans-time);
-}
-
-.arrow-hvr:hover {
-  filter: brightness(0) saturate(100%) invert(27%) sepia(6%) saturate(449%)
-    hue-rotate(131deg) brightness(94%) contrast(90%);
-}
-
-.mirrorY {
-  transform: scale(-1, 1);
-}
-
-.card-border-radius {
-  border-radius: 1.5rem;
-}
-.card-lh {
-  line-height: 2.25rem;
 }

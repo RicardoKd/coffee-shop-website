@@ -1,6 +1,6 @@
 .btn-order-here {
   width: 235px;
-  height: 54px;
+  height: 46px;
 }
 
 .carousel-transform {
@@ -37,31 +37,38 @@
   font-size: 24px;
 }
 
-.banner-h1{
+.sm-banner-icons {
+  transition: var(--main-trans-time);
+  filter: var(--svg-grey);
+  width: 26px;
+}
+
+.sm-banner-icons:hover {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(13%) saturate(1494%)
+    hue-rotate(125deg) brightness(101%) contrast(90%);
+}
+
+.banner-h1 {
   font-size: 54px;
 }
 
-.banner-h4{
+.banner-h4 {
   font-size: 19px;
   margin-top: 70px;
 }
 
 @media screen and (min-width: 576px) {
-  .banner-h1{
+  .banner-h1 {
     font-size: 70px;
   }
-  
-  .banner-h4{
+
+  .banner-h4 {
     font-size: 22px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .banner-h1{
+  .banner-h1 {
     font-size: 63px;
   }
-}
-
-.sm-banner-icons {
-  width: 26px;
 }
