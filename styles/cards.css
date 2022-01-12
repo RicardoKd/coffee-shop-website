@@ -13,3 +13,7 @@
 .card-lh {
   line-height: 2.25rem;
 }
+
+.card-mw {
+  max-width: 290px;
+}

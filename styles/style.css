@@ -44,6 +44,10 @@
   color: var(--secondary-text-color);
 }
 
+.accent-text-color:hover {
+  color: var(--btn-bg-color);
+}
+
 .btn-bg-color {
   background-color: var(--btn-bg-color);
 }
@@ -84,6 +88,10 @@ body {
 
 .mb-9 {
   margin-bottom: 10rem;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
 
 .fs-19 {

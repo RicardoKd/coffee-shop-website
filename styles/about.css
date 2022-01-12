@@ -4,9 +4,4 @@
     padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
     padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
   }
-
-  .about-picture-wrapper {
-    padding-right: var(--bs-gutter-x, 0.75rem) !important;
-    padding-left: var(--bs-gutter-x, 0.75rem) !important;
-  }
 }
